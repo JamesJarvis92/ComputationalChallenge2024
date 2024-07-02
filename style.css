@@ -1,12 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #F0F0F0;
-    color: #333;
-    margin: 0;
-    padding: 20px;
+    font-family: Gill Sans, sans-serif;
+    font-size: 20px;
+    background: linear-gradient(to top left, #0eb6f8, #6b6bf3);
+    height: 100vh;
 }
+
 h1 {
-    color: #0056B3;
+    color: #000000;
+    font-size: 40px;
 }
 
 
@@ -49,4 +50,4 @@ h1 {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background: linear-gradient(to top left, #cec456, #1b700e);}
