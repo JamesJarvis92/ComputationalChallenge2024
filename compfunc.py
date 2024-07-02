@@ -1,9 +1,5 @@
 import numpy as np
-#import matplotlib.pyplot as plt
-#from matplotlib.widgets import Slider
-#from matplotlib import animation
-#from matplotlib.animation import FuncAnimation
-#from ipywidgets import interact, widgets
+import matplotlib.pyplot as plt
 
 def proj_motion(vel,angle,grav_strength,start_height,time_interval):
     angle = np.radians(angle)
